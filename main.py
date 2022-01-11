@@ -22,9 +22,7 @@ class Nuke:
                         print("Failed To Rape ->  {}".format(members))
                     return await self.execute(members)
         except Exception:
-
             print(f"-> There Was An Error Sending Requests ->")
-
             return await self.execute(members)
 
     async def start(self):
